@@ -8,7 +8,7 @@ class Foo does StrictClass {
 }
 
 lives-ok {
-    Foo.new(a => 1, b => 2);
+    Foo.new(a => 1, b => {bb => 2, bbb => 3});
 }, 'Can create an instace of a Class that does StrictClass';
 
 dies-ok {

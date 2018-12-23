@@ -6,7 +6,8 @@ method new(*%pars) {
         so $_ ne ::?CLASS.^attributes.map(*.name.substr: 2).any
     };
     die "Attributes not expected: @attrs.join(", ")" if @attrs;
-    return ::?CLASS.bless |%pars
+    say %pars.perl;
+    nextsame;
 };
 
 =begin pod
