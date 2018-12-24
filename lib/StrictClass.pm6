@@ -1,5 +1,5 @@
 use v6.c;
-unit role StrictClass:ver<0.0.1>;
+unit role StrictClass:ver<0.0.2>;
 
 method new(*%pars) {
     my @attrs = %pars.keys.grep: {
