@@ -12,7 +12,7 @@ class B does A does StrictClass {
 
 lives-ok {
     my $b = B.new(a => 1);
-    diag $b.perl;
+    # diag $b.perl;
     ok $b.isa(B), 'B.new.isa(B)';
 
 }, 'Can create an instace of a Class that does StrictClass';
