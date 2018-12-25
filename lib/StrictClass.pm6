@@ -6,7 +6,6 @@ method new(*%pars) {
         so $_ ne ::?CLASS.^attributes.map(*.name.substr: 2).any
     };
     die "Attributes not expected: @attrs.join(", ")" if @attrs;
-    say %pars.perl;
     nextsame;
 };
 
