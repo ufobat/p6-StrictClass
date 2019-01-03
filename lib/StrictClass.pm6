@@ -34,7 +34,7 @@ Simply using this role for your class makes your `new` "strict". This is a great
 
 Martin Barth <martin@senfdax.de>
 
-=head THANKS TO
+=head1 THANKS TO
 
  * FCO aka SmokeMaschine from #perl6 IRC channel for this code.
  * Dave Rolsky for his perl5 module `MooseX::StrictContructor`.
